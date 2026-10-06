@@ -1,0 +1,279 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "unown-void_depths-common",
+      "pokemon": "unown",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "drowzee-void_depths-common",
+      "pokemon": "drowzee",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "solosis-void_depths-common",
+      "pokemon": "solosis",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "baltoy-void_depths-common",
+      "pokemon": "baltoy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "hypno-void_depths-uncommon",
+      "pokemon": "hypno",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "kadabra-void_depths-uncommon",
+      "pokemon": "kadabra",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "dusclops-void_depths-uncommon",
+      "pokemon": "dusclops",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "elgyem-void_depths-uncommon",
+      "pokemon": "elgyem",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "beheeyem-void_depths-rare",
+      "pokemon": "beheeyem",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "dusknoir-void_depths-rare",
+      "pokemon": "dusknoir",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-60",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "claydol-void_depths-rare",
+      "pokemon": "claydol",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "guzzlord-void_depths-rare",
+      "pokemon": "guzzlord min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "50-70",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "blacephalon-void_depths-ultra-rare",
+      "pokemon": "blacephalon min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "naganadel-void_depths-ultra-rare",
+      "pokemon": "naganadel min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "tapufini-void_depths-ultra-rare",
+      "pokemon": "tapufini",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    },
+    {
+      "id": "xurkitree-void_depths-ultra-rare",
+      "pokemon": "xurkitree min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:void_depths"
+        ]
+      }
+    }
+  ]
+}

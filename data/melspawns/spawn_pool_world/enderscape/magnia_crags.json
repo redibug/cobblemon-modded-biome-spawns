@@ -1,0 +1,279 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nosepass-magnia_crags-common",
+      "pokemon": "nosepass",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "bronzor-magnia_crags-common",
+      "pokemon": "bronzor",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "lunatone-magnia_crags-common",
+      "pokemon": "lunatone",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-40",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "baltoy-magnia_crags-common",
+      "pokemon": "baltoy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "magneton-magnia_crags-uncommon",
+      "pokemon": "magneton",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "shieldon-magnia_crags-uncommon",
+      "pokemon": "shieldon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "sigilyph-magnia_crags-uncommon",
+      "pokemon": "sigilyph",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "minior-magnia_crags-uncommon",
+      "pokemon": "minior",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "probopass-magnia_crags-rare",
+      "pokemon": "probopass",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "bastiodon-magnia_crags-rare",
+      "pokemon": "bastiodon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "bronzong-magnia_crags-rare",
+      "pokemon": "bronzong",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "stakataka-magnia_crags-rare",
+      "pokemon": "stakataka min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-65",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "magnezone-magnia_crags-ultra-rare",
+      "pokemon": "magnezone",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-60",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "solgaleo-magnia_crags-ultra-rare",
+      "pokemon": "solgaleo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "magearna-magnia_crags-ultra-rare",
+      "pokemon": "magearna",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    },
+    {
+      "id": "silvally-magnia_crags-ultra-rare",
+      "pokemon": "silvally",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:magnia_crags"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "baltoy-corrupt_barrens-common",
+      "pokemon": "baltoy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "solosis-corrupt_barrens-common",
+      "pokemon": "solosis",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "gothita-corrupt_barrens-common",
+      "pokemon": "gothita",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "drowzee-corrupt_barrens-common",
+      "pokemon": "drowzee",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "kadabra-corrupt_barrens-uncommon",
+      "pokemon": "kadabra",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "gothorita-corrupt_barrens-uncommon",
+      "pokemon": "gothorita",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "duosion-corrupt_barrens-uncommon",
+      "pokemon": "duosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "hypno-corrupt_barrens-uncommon",
+      "pokemon": "hypno",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "claydol-corrupt_barrens-rare",
+      "pokemon": "claydol",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "gothitelle-corrupt_barrens-rare",
+      "pokemon": "gothitelle",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "reuniclus-corrupt_barrens-rare",
+      "pokemon": "reuniclus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "nihilego-corrupt_barrens-rare",
+      "pokemon": "nihilego min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-65",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "guzzlord-corrupt_barrens-ultra-rare",
+      "pokemon": "guzzlord min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "naganadel-corrupt_barrens-ultra-rare",
+      "pokemon": "naganadel min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "blacephalon-corrupt_barrens-ultra-rare",
+      "pokemon": "blacephalon min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
+      "id": "marshadow-corrupt_barrens-ultra-rare",
+      "pokemon": "marshadow",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 3,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "solrock-void_sky_islands-common",
+      "pokemon": "solrock",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-40",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "clefairy-void_sky_islands-common",
+      "pokemon": "clefairy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "natu-void_sky_islands-common",
+      "pokemon": "natu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "lunatone-void_sky_islands-common",
+      "pokemon": "lunatone",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-40",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "minior-void_sky_islands-uncommon",
+      "pokemon": "minior",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "sigilyph-void_sky_islands-uncommon",
+      "pokemon": "sigilyph",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "xatu-void_sky_islands-uncommon",
+      "pokemon": "xatu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "elgyem-void_sky_islands-uncommon",
+      "pokemon": "elgyem",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "stakataka-void_sky_islands-rare",
+      "pokemon": "stakataka min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-65",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "nihilego-void_sky_islands-rare",
+      "pokemon": "nihilego min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-65",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "kartana-void_sky_islands-rare",
+      "pokemon": "kartana min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-65",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "tapukoko-void_sky_islands-rare",
+      "pokemon": "tapukoko",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "solgaleo-void_sky_islands-ultra-rare",
+      "pokemon": "solgaleo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "necrozma-void_sky_islands-ultra-rare",
+      "pokemon": "necrozma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-80",
+      "weight": 3,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "buzzwole-void_sky_islands-ultra-rare",
+      "pokemon": "buzzwole min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    },
+    {
+      "id": "tapulele-void_sky_islands-ultra-rare",
+      "pokemon": "tapulele",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 3,
+      "condition": {
+        "biomes": [
+          "enderscape:void_sky_islands"
+        ]
+      }
+    }
+  ]
+}

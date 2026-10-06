@@ -1,0 +1,279 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "solosis-veiled_woodlands-common",
+      "pokemon": "solosis",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "gothita-veiled_woodlands-common",
+      "pokemon": "gothita",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "natu-veiled_woodlands-common",
+      "pokemon": "natu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "elgyem-veiled_woodlands-common",
+      "pokemon": "elgyem",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-40",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "duosion-veiled_woodlands-uncommon",
+      "pokemon": "duosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "gothorita-veiled_woodlands-uncommon",
+      "pokemon": "gothorita",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "shuppet-veiled_woodlands-uncommon",
+      "pokemon": "shuppet",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "chingling-veiled_woodlands-uncommon",
+      "pokemon": "chingling",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "reuniclus-veiled_woodlands-rare",
+      "pokemon": "reuniclus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "gothitelle-veiled_woodlands-rare",
+      "pokemon": "gothitelle",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "banette-veiled_woodlands-rare",
+      "pokemon": "banette",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "kartana-veiled_woodlands-rare",
+      "pokemon": "kartana min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-65",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "buzzwole-veiled_woodlands-ultra-rare",
+      "pokemon": "buzzwole min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "tapubulu-veiled_woodlands-ultra-rare",
+      "pokemon": "tapubulu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "zeraora-veiled_woodlands-ultra-rare",
+      "pokemon": "zeraora",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    },
+    {
+      "id": "dusknoir-veiled_woodlands-ultra-rare",
+      "pokemon": "dusknoir",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-60",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:veiled_woodlands"
+        ]
+      }
+    }
+  ]
+}
