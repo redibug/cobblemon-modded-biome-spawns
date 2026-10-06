@@ -4,36 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "phantump-dappled_forest-common",
-      "pokemon": "phantump",
+      "id": "hoothoot-dappled_forest-common",
+      "pokemon": "hoothoot",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "common",
-      "level": "6-31",
+      "level": "6-24",
       "weight": 20,
       "condition": {
         "biomes": [
           "dappled_up:dappled_forest"
         ],
-        "timeRange": "night",
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "timeRange": "night"
       }
     },
     {
-      "id": "pumpkaboo-dappled_forest-common",
-      "pokemon": "pumpkaboo",
+      "id": "deerling-autumn-dappled_forest-common",
+      "pokemon": "deerling autumn",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "common",
-      "level": "9-34",
-      "weight": 20,
+      "level": "8-26",
+      "weight": 18,
       "condition": {
         "biomes": [
           "dappled_up:dappled_forest"
@@ -93,21 +91,23 @@
       }
     },
     {
-      "id": "hoothoot-dappled_forest-uncommon",
-      "pokemon": "hoothoot",
+      "id": "phantump-dappled_forest-uncommon",
+      "pokemon": "phantump",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
-      "level": "6-24",
-      "weight": 12,
+      "level": "6-31",
+      "weight": 14,
       "condition": {
         "biomes": [
           "dappled_up:dappled_forest"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     },
     {
@@ -128,16 +128,16 @@
       }
     },
     {
-      "id": "deerling-autumn-dappled_forest-uncommon",
-      "pokemon": "deerling autumn",
+      "id": "pumpkaboo-dappled_forest-uncommon",
+      "pokemon": "pumpkaboo",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
-      "level": "8-26",
-      "weight": 12,
+      "level": "9-34",
+      "weight": 14,
       "condition": {
         "biomes": [
           "dappled_up:dappled_forest"
