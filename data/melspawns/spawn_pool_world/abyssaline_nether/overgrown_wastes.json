@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "slugma-overgrown_wastes-1",
+      "id": "slugma-overgrown_wastes-common",
       "pokemon": "slugma",
       "presets": [
         "natural"
@@ -21,7 +21,58 @@
       }
     },
     {
-      "id": "torkoal-overgrown_wastes-1",
+      "id": "gastly-overgrown_wastes-common",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "numel-overgrown_wastes-common",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "litwick-overgrown_wastes-common",
+      "pokemon": "litwick",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "torkoal-overgrown_wastes-uncommon",
       "pokemon": "torkoal",
       "presets": [
         "natural"
@@ -38,16 +89,186 @@
       }
     },
     {
-      "id": "gastly-overgrown_wastes-1",
-      "pokemon": "gastly",
+      "id": "haunter-overgrown_wastes-uncommon",
+      "pokemon": "haunter",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
-      "level": "6-31",
+      "level": "20-40",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "houndour-overgrown_wastes-uncommon",
+      "pokemon": "houndour",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
       "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "magmar-overgrown_wastes-uncommon",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "magcargo-overgrown_wastes-rare",
+      "pokemon": "magcargo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "gengar-overgrown_wastes-rare",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "camerupt-overgrown_wastes-rare",
+      "pokemon": "camerupt",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "28-52",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "houndoom-overgrown_wastes-rare",
+      "pokemon": "houndoom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "magmortar-overgrown_wastes-ultra-rare",
+      "pokemon": "magmortar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "chandelure-overgrown_wastes-ultra-rare",
+      "pokemon": "chandelure",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "typhlosion-overgrown_wastes-ultra-rare",
+      "pokemon": "typhlosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "ninetales-overgrown_wastes-ultra-rare",
+      "pokemon": "ninetales",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-52",
+      "weight": 4,
       "condition": {
         "biomes": [
           "abyssaline:overgrown_wastes"

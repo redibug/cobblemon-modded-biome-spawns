@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "wooper-marsh-1",
+      "id": "wooper-marsh-common",
       "pokemon": "wooper",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "5-22",
-      "weight": 22,
+      "weight": 20,
       "condition": {
         "biomes": [
           "blooming_biosphere:marsh"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "id": "psyduck-marsh-1",
+      "id": "psyduck-marsh-common",
       "pokemon": "psyduck",
       "presets": [
         "natural"
@@ -38,15 +38,49 @@
       }
     },
     {
-      "id": "lotad-marsh-1",
+      "id": "lotad-marsh-common",
       "pokemon": "lotad",
       "presets": [
         "water"
       ],
       "type": "pokemon",
       "spawnablePositionType": "seafloor",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "6-24",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "poliwag-marsh-common",
+      "pokemon": "poliwag",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "5-22",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "marill-marsh-uncommon",
+      "pokemon": "marill",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-26",
       "weight": 12,
       "condition": {
         "biomes": [
@@ -55,16 +89,186 @@
       }
     },
     {
-      "id": "poliwag-marsh-1",
-      "pokemon": "poliwag",
+      "id": "goldeen-marsh-uncommon",
+      "pokemon": "goldeen",
       "presets": [
         "water"
       ],
       "type": "pokemon",
       "spawnablePositionType": "seafloor",
       "bucket": "uncommon",
-      "level": "5-22",
-      "weight": 12,
+      "level": "8-28",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "tentacool-marsh-uncommon",
+      "pokemon": "tentacool",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "10-30",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "croagunk-marsh-uncommon",
+      "pokemon": "croagunk",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-30",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "quagsire-marsh-rare",
+      "pokemon": "quagsire",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-48",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "golduck-marsh-rare",
+      "pokemon": "golduck",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-48",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "ludicolo-marsh-rare",
+      "pokemon": "ludicolo",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "poliwrath-marsh-rare",
+      "pokemon": "poliwrath",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "toxicroak-marsh-ultra-rare",
+      "pokemon": "toxicroak",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "gyarados-marsh-ultra-rare",
+      "pokemon": "gyarados",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "vaporeon-marsh-ultra-rare",
+      "pokemon": "vaporeon",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "swampert-marsh-ultra-rare",
+      "pokemon": "swampert",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
       "condition": {
         "biomes": [
           "blooming_biosphere:marsh"

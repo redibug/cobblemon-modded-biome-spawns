@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "gastly-distorted_wastes-1",
+      "id": "gastly-distorted_wastes-common",
       "pokemon": "gastly",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "6-31",
-      "weight": 20,
+      "weight": 18,
       "condition": {
         "biomes": [
           "abyssaline:distorted_wastes"
@@ -21,7 +21,58 @@
       }
     },
     {
-      "id": "haunter-distorted_wastes-1",
+      "id": "litwick-distorted_wastes-common",
+      "pokemon": "litwick",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "houndour-distorted_wastes-common",
+      "pokemon": "houndour",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "slugma-distorted_wastes-common",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-30",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "haunter-distorted_wastes-uncommon",
       "pokemon": "haunter",
       "presets": [
         "natural"
@@ -30,7 +81,194 @@
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
       "level": "20-40",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "magmar-distorted_wastes-uncommon",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
       "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "numel-distorted_wastes-uncommon",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "growlithe-distorted_wastes-uncommon",
+      "pokemon": "growlithe",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-30",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "gengar-distorted_wastes-rare",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "lampent-distorted_wastes-rare",
+      "pokemon": "lampent",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-42",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "houndoom-distorted_wastes-rare",
+      "pokemon": "houndoom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "camerupt-distorted_wastes-rare",
+      "pokemon": "camerupt",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "28-52",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "chandelure-distorted_wastes-ultra-rare",
+      "pokemon": "chandelure",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "magmortar-distorted_wastes-ultra-rare",
+      "pokemon": "magmortar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "typhlosion-distorted_wastes-ultra-rare",
+      "pokemon": "typhlosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "abyssaline:distorted_wastes"
+        ]
+      }
+    },
+    {
+      "id": "ninetales-distorted_wastes-ultra-rare",
+      "pokemon": "ninetales",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-52",
+      "weight": 4,
       "condition": {
         "biomes": [
           "abyssaline:distorted_wastes"

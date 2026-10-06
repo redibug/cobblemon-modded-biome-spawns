@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "phantump-autumnal_forest-1",
+      "id": "phantump-autumnal_forest-common",
       "pokemon": "phantump",
       "presets": [
         "natural"
@@ -24,25 +24,24 @@
       }
     },
     {
-      "id": "pumpkaboo-autumnal_forest-1",
+      "id": "pumpkaboo-autumnal_forest-common",
       "pokemon": "pumpkaboo",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "9-34",
-      "weight": 10,
+      "weight": 18,
       "condition": {
         "biomes": [
           "blooming_biosphere:autumnal_forest"
-        ],
-        "timeRange": "night"
+        ]
       }
     },
     {
-      "id": "seedot-autumnal_forest-1",
+      "id": "seedot-autumnal_forest-common",
       "pokemon": "seedot",
       "presets": [
         "natural"
@@ -51,7 +50,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "5-25",
-      "weight": 22,
+      "weight": 20,
       "condition": {
         "biomes": [
           "blooming_biosphere:autumnal_forest"
@@ -60,7 +59,41 @@
       }
     },
     {
-      "id": "pineco-autumnal_forest-1",
+      "id": "oddish-autumnal_forest-common",
+      "pokemon": "oddish",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-20",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    },
+    {
+      "id": "shroomish-autumnal_forest-uncommon",
+      "pokemon": "shroomish",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-20",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    },
+    {
+      "id": "pineco-autumnal_forest-uncommon",
       "pokemon": "pineco",
       "presets": [
         "natural"
@@ -70,6 +103,181 @@
       "bucket": "uncommon",
       "level": "8-26",
       "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    },
+    {
+      "id": "deerling-autumn-autumnal_forest-uncommon",
+      "pokemon": "deerling autumn",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-26",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    },
+    {
+      "id": "hoothoot-autumnal_forest-uncommon",
+      "pokemon": "hoothoot",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-24",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mimikyu-autumnal_forest-rare",
+      "pokemon": "mimikyu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    },
+    {
+      "id": "trevenant-autumnal_forest-rare",
+      "pokemon": "trevenant",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "gourgeist-autumnal_forest-rare",
+      "pokemon": "gourgeist",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    },
+    {
+      "id": "vileplume-autumnal_forest-rare",
+      "pokemon": "vileplume",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "28-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "forretress-autumnal_forest-ultra-rare",
+      "pokemon": "forretress",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "25-48",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    },
+    {
+      "id": "noctowl-autumnal_forest-ultra-rare",
+      "pokemon": "noctowl",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "25-45",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "shiftry-autumnal_forest-ultra-rare",
+      "pokemon": "shiftry",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "breloom-autumnal_forest-ultra-rare",
+      "pokemon": "breloom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-52",
+      "weight": 5,
       "condition": {
         "biomes": [
           "blooming_biosphere:autumnal_forest"

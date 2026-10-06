@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "paras-rainforest-1",
+      "id": "paras-rainforest-common",
       "pokemon": "paras",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "8-26",
-      "weight": 20,
+      "weight": 18,
       "condition": {
         "biomes": [
           "blooming_biosphere:rainforest"
@@ -21,8 +21,77 @@
       }
     },
     {
-      "id": "venomoth-rainforest-1",
-      "pokemon": "venomoth",
+      "id": "exeggcute-rainforest-common",
+      "pokemon": "exeggcute",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-28",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "spinarak-rainforest-common",
+      "pokemon": "spinarak",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-26",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "surskit-rainforest-common",
+      "pokemon": "surskit",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "8-26",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "venonat-rainforest-uncommon",
+      "pokemon": "venonat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-28",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "tangela-rainforest-uncommon",
+      "pokemon": "tangela",
       "presets": [
         "natural"
       ],
@@ -34,21 +103,20 @@
       "condition": {
         "biomes": [
           "blooming_biosphere:rainforest"
-        ],
-        "timeRange": "night"
+        ]
       }
     },
     {
-      "id": "exeggcute-rainforest-1",
-      "pokemon": "exeggcute",
+      "id": "tropius-rainforest-uncommon",
+      "pokemon": "tropius",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
-      "level": "12-30",
-      "weight": 12,
+      "level": "18-38",
+      "weight": 10,
       "condition": {
         "biomes": [
           "blooming_biosphere:rainforest"
@@ -56,16 +124,153 @@
       }
     },
     {
-      "id": "tropius-rainforest-1",
-      "pokemon": "tropius",
+      "id": "carnivine-rainforest-uncommon",
+      "pokemon": "carnivine",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-35",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "parasect-rainforest-rare",
+      "pokemon": "parasect",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "rare",
-      "level": "20-40",
+      "level": "25-48",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "exeggutor-rainforest-rare",
+      "pokemon": "exeggutor",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
       "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "venomoth-rainforest-rare",
+      "pokemon": "venomoth",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-45",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "butterfree-rainforest-rare",
+      "pokemon": "butterfree",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-42",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "leavanny-rainforest-ultra-rare",
+      "pokemon": "leavanny",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "whimsicott-rainforest-ultra-rare",
+      "pokemon": "whimsicott",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "lilligant-rainforest-ultra-rare",
+      "pokemon": "lilligant",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:rainforest"
+        ]
+      }
+    },
+    {
+      "id": "leafeon-rainforest-ultra-rare",
+      "pokemon": "leafeon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 4,
       "condition": {
         "biomes": [
           "blooming_biosphere:rainforest"

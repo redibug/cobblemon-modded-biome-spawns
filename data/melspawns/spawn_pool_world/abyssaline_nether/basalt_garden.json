@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "slugma-basalt_garden-1",
+      "id": "slugma-basalt_garden-common",
       "pokemon": "slugma",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "8-30",
-      "weight": 20,
+      "weight": 18,
       "condition": {
         "biomes": [
           "abyssaline:basalt_garden"
@@ -21,8 +21,110 @@
       }
     },
     {
-      "id": "numel-basalt_garden-1",
+      "id": "numel-basalt_garden-common",
       "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "gastly-basalt_garden-common",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "litwick-basalt_garden-common",
+      "pokemon": "litwick",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "magmar-basalt_garden-uncommon",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "torkoal-basalt_garden-uncommon",
+      "pokemon": "torkoal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "haunter-basalt_garden-uncommon",
+      "pokemon": "haunter",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "houndour-basalt_garden-uncommon",
+      "pokemon": "houndour",
       "presets": [
         "natural"
       ],
@@ -30,7 +132,143 @@
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
       "level": "10-32",
-      "weight": 12,
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "magcargo-basalt_garden-rare",
+      "pokemon": "magcargo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "camerupt-basalt_garden-rare",
+      "pokemon": "camerupt",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "28-52",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "lampent-basalt_garden-rare",
+      "pokemon": "lampent",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-42",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "houndoom-basalt_garden-rare",
+      "pokemon": "houndoom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "magmortar-basalt_garden-ultra-rare",
+      "pokemon": "magmortar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "chandelure-basalt_garden-ultra-rare",
+      "pokemon": "chandelure",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "typhlosion-basalt_garden-ultra-rare",
+      "pokemon": "typhlosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "gengar-basalt_garden-ultra-rare",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 4,
       "condition": {
         "biomes": [
           "abyssaline:basalt_garden"

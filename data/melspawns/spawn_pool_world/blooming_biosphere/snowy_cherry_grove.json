@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "swinub-snowy_cherry_grove-1",
+      "id": "swinub-snowy_cherry_grove-common",
       "pokemon": "swinub",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "8-26",
-      "weight": 20,
+      "weight": 18,
       "condition": {
         "biomes": [
           "blooming_biosphere:snowy_cherry_grove"
@@ -21,7 +21,24 @@
       }
     },
     {
-      "id": "snorunt-snowy_cherry_grove-1",
+      "id": "snover-snowy_cherry_grove-common",
+      "pokemon": "snover",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "snorunt-snowy_cherry_grove-common",
       "pokemon": "snorunt",
       "presets": [
         "natural"
@@ -39,8 +56,43 @@
       }
     },
     {
-      "id": "snover-snowy_cherry_grove-1",
-      "pokemon": "snover",
+      "id": "cubchoo-snowy_cherry_grove-common",
+      "pokemon": "cubchoo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-26",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "sneasel-snowy_cherry_grove-uncommon",
+      "pokemon": "sneasel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-35",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "delibird-snowy_cherry_grove-uncommon",
+      "pokemon": "delibird",
       "presets": [
         "natural"
       ],
@@ -56,21 +108,176 @@
       }
     },
     {
-      "id": "sneasel-snowy_cherry_grove-1",
-      "pokemon": "sneasel",
+      "id": "bergmite-snowy_cherry_grove-uncommon",
+      "pokemon": "bergmite",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "vanillite-snowy_cherry_grove-uncommon",
+      "pokemon": "vanillite",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "piloswine-snowy_cherry_grove-rare",
+      "pokemon": "piloswine",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "rare",
-      "level": "18-38",
+      "level": "22-45",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "glalie-snowy_cherry_grove-rare",
+      "pokemon": "glalie",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-48",
       "weight": 6,
       "condition": {
         "biomes": [
           "blooming_biosphere:snowy_cherry_grove"
         ],
         "timeRange": "night"
+      }
+    },
+    {
+      "id": "froslass-snowy_cherry_grove-rare",
+      "pokemon": "froslass",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-48",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "abomasnow-snowy_cherry_grove-rare",
+      "pokemon": "abomasnow",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "mamoswine-snowy_cherry_grove-ultra-rare",
+      "pokemon": "mamoswine",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "weavile-snowy_cherry_grove-ultra-rare",
+      "pokemon": "weavile",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "glaceon-snowy_cherry_grove-ultra-rare",
+      "pokemon": "glaceon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "beartic-snowy_cherry_grove-ultra-rare",
+      "pokemon": "beartic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
       }
     }
   ]

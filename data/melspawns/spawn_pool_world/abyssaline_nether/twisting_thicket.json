@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "litwick-twisting_thicket-1",
+      "id": "litwick-twisting_thicket-common",
       "pokemon": "litwick",
       "presets": [
         "natural"
@@ -21,7 +21,126 @@
       }
     },
     {
-      "id": "lampent-twisting_thicket-1",
+      "id": "gastly-twisting_thicket-common",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "slugma-twisting_thicket-common",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-30",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "houndour-twisting_thicket-common",
+      "pokemon": "houndour",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "haunter-twisting_thicket-uncommon",
+      "pokemon": "haunter",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "magmar-twisting_thicket-uncommon",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "numel-twisting_thicket-uncommon",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "vulpix-twisting_thicket-uncommon",
+      "pokemon": "vulpix",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-30",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "lampent-twisting_thicket-rare",
       "pokemon": "lampent",
       "presets": [
         "natural"
@@ -30,6 +149,23 @@
       "spawnablePositionType": "grounded",
       "bucket": "rare",
       "level": "20-42",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "gengar-twisting_thicket-rare",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
       "weight": 6,
       "condition": {
         "biomes": [
@@ -38,16 +174,101 @@
       }
     },
     {
-      "id": "magmar-twisting_thicket-1",
-      "pokemon": "magmar",
+      "id": "magcargo-twisting_thicket-rare",
+      "pokemon": "magcargo",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
-      "bucket": "uncommon",
-      "level": "18-40",
-      "weight": 8,
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "houndoom-twisting_thicket-rare",
+      "pokemon": "houndoom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "chandelure-twisting_thicket-ultra-rare",
+      "pokemon": "chandelure",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "magmortar-twisting_thicket-ultra-rare",
+      "pokemon": "magmortar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "typhlosion-twisting_thicket-ultra-rare",
+      "pokemon": "typhlosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "ninetales-twisting_thicket-ultra-rare",
+      "pokemon": "ninetales",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-52",
+      "weight": 4,
       "condition": {
         "biomes": [
           "abyssaline:twisting_thicket"

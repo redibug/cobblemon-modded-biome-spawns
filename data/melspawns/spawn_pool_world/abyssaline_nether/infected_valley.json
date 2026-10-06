@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "litwick-infected_valley-1",
+      "id": "litwick-infected_valley-common",
       "pokemon": "litwick",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "3-28",
-      "weight": 20,
+      "weight": 18,
       "condition": {
         "biomes": [
           "abyssaline:infected_valley"
@@ -21,16 +21,254 @@
       }
     },
     {
-      "id": "gastly-infected_valley-1",
+      "id": "gastly-infected_valley-common",
       "pokemon": "gastly",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "6-31",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "numel-infected_valley-common",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
       "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "vulpix-infected_valley-common",
+      "pokemon": "vulpix",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "haunter-infected_valley-uncommon",
+      "pokemon": "haunter",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "slugma-infected_valley-uncommon",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-30",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "houndour-infected_valley-uncommon",
+      "pokemon": "houndour",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "magmar-infected_valley-uncommon",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "lampent-infected_valley-rare",
+      "pokemon": "lampent",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-42",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "gengar-infected_valley-rare",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "ninetales-infected_valley-rare",
+      "pokemon": "ninetales",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "magcargo-infected_valley-rare",
+      "pokemon": "magcargo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "chandelure-infected_valley-ultra-rare",
+      "pokemon": "chandelure",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "magmortar-infected_valley-ultra-rare",
+      "pokemon": "magmortar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "typhlosion-infected_valley-ultra-rare",
+      "pokemon": "typhlosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "houndoom-infected_valley-ultra-rare",
+      "pokemon": "houndoom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-52",
+      "weight": 4,
       "condition": {
         "biomes": [
           "abyssaline:infected_valley"

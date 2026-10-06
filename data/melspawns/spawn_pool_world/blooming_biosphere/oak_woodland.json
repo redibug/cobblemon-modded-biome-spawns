@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "pidgey-oak_woodland-1",
+      "id": "pidgey-oak_woodland-common",
       "pokemon": "pidgey",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "5-20",
-      "weight": 25,
+      "weight": 22,
       "condition": {
         "biomes": [
           "blooming_biosphere:oak_woodland"
@@ -22,7 +22,7 @@
       }
     },
     {
-      "id": "caterpie-oak_woodland-1",
+      "id": "caterpie-oak_woodland-common",
       "pokemon": "caterpie",
       "presets": [
         "natural"
@@ -31,7 +31,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "4-16",
-      "weight": 22,
+      "weight": 20,
       "condition": {
         "biomes": [
           "blooming_biosphere:oak_woodland"
@@ -39,7 +39,7 @@
       }
     },
     {
-      "id": "oddish-oak_woodland-1",
+      "id": "oddish-oak_woodland-common",
       "pokemon": "oddish",
       "presets": [
         "natural"
@@ -48,7 +48,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "5-20",
-      "weight": 18,
+      "weight": 16,
       "condition": {
         "biomes": [
           "blooming_biosphere:oak_woodland"
@@ -56,8 +56,26 @@
       }
     },
     {
-      "id": "buneary-oak_woodland-1",
+      "id": "buneary-oak_woodland-common",
       "pokemon": "buneary",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-22",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "sentret-oak_woodland-uncommon",
+      "pokemon": "sentret",
       "presets": [
         "natural"
       ],
@@ -65,12 +83,201 @@
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
       "level": "6-22",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "wurmple-oak_woodland-uncommon",
+      "pokemon": "wurmple",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "4-16",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "nidoranf-oak_woodland-uncommon",
+      "pokemon": "nidoranf",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-24",
       "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "nidoranm-oak_woodland-uncommon",
+      "pokemon": "nidoranm",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-24",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "pidgeotto-oak_woodland-rare",
+      "pokemon": "pidgeotto",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-40",
+      "weight": 7,
       "condition": {
         "biomes": [
           "blooming_biosphere:oak_woodland"
         ],
         "timeRange": "day"
+      }
+    },
+    {
+      "id": "butterfree-oak_woodland-rare",
+      "pokemon": "butterfree",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-40",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "lopunny-oak_woodland-rare",
+      "pokemon": "lopunny",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-45",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "vileplume-oak_woodland-rare",
+      "pokemon": "vileplume",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "28-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "pidgeot-oak_woodland-ultra-rare",
+      "pokemon": "pidgeot",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "nidoqueen-oak_woodland-ultra-rare",
+      "pokemon": "nidoqueen",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "nidoking-oak_woodland-ultra-rare",
+      "pokemon": "nidoking",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "furret-oak_woodland-ultra-rare",
+      "pokemon": "furret",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-52",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
       }
     }
   ]

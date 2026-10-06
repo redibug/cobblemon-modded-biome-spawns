@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "krabby-tidepools-1",
+      "id": "krabby-tidepools-common",
       "pokemon": "krabby",
       "presets": [
         "natural"
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "8-33",
-      "weight": 22,
+      "weight": 20,
       "condition": {
         "biomes": [
           "blooming_biosphere:tidepools"
@@ -21,16 +21,16 @@
       }
     },
     {
-      "id": "corphish-tidepools-1",
+      "id": "corphish-tidepools-common",
       "pokemon": "corphish",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "8-30",
-      "weight": 12,
+      "weight": 16,
       "condition": {
         "biomes": [
           "blooming_biosphere:tidepools"
@@ -38,7 +38,7 @@
       }
     },
     {
-      "id": "wingull-tidepools-1",
+      "id": "wingull-tidepools-common",
       "pokemon": "wingull",
       "presets": [
         "natural"
@@ -47,7 +47,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "8-28",
-      "weight": 18,
+      "weight": 16,
       "condition": {
         "biomes": [
           "blooming_biosphere:tidepools"
@@ -56,7 +56,24 @@
       }
     },
     {
-      "id": "staryu-tidepools-1",
+      "id": "tentacool-tidepools-common",
+      "pokemon": "tentacool",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "staryu-tidepools-uncommon",
       "pokemon": "staryu",
       "presets": [
         "water"
@@ -65,7 +82,195 @@
       "spawnablePositionType": "seafloor",
       "bucket": "uncommon",
       "level": "10-32",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "remoraid-tidepools-uncommon",
+      "pokemon": "remoraid",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "10-30",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "clamperl-tidepools-uncommon",
+      "pokemon": "clamperl",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "12-32",
       "weight": 8,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "wailmer-tidepools-uncommon",
+      "pokemon": "wailmer",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "15-35",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "kingler-tidepools-rare",
+      "pokemon": "kingler",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "crawdaunt-tidepools-rare",
+      "pokemon": "crawdaunt",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "pelipper-tidepools-rare",
+      "pokemon": "pelipper",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-45",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "starmie-tidepools-rare",
+      "pokemon": "starmie",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "gyarados-tidepools-ultra-rare",
+      "pokemon": "gyarados",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "vaporeon-tidepools-ultra-rare",
+      "pokemon": "vaporeon",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "wailord-tidepools-ultra-rare",
+      "pokemon": "wailord",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "35-60",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:tidepools"
+        ]
+      }
+    },
+    {
+      "id": "lanturn-tidepools-ultra-rare",
+      "pokemon": "lanturn",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
       "condition": {
         "biomes": [
           "blooming_biosphere:tidepools"

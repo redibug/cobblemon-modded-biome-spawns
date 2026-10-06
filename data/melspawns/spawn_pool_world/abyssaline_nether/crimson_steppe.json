@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "vulpix-crimson_steppe-1",
+      "id": "vulpix-crimson_steppe-common",
       "pokemon": "vulpix",
       "presets": [
         "natural"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "id": "growlithe-crimson_steppe-1",
+      "id": "growlithe-crimson_steppe-common",
       "pokemon": "growlithe",
       "presets": [
         "natural"
@@ -30,7 +30,245 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "8-30",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "houndour-crimson_steppe-common",
+      "pokemon": "houndour",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
       "weight": 14,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "numel-crimson_steppe-common",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "magmar-crimson_steppe-uncommon",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "slugma-crimson_steppe-uncommon",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-30",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "gastly-crimson_steppe-uncommon",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "torkoal-crimson_steppe-uncommon",
+      "pokemon": "torkoal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "ninetales-crimson_steppe-rare",
+      "pokemon": "ninetales",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "arcanine-crimson_steppe-rare",
+      "pokemon": "arcanine",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "houndoom-crimson_steppe-rare",
+      "pokemon": "houndoom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "magcargo-crimson_steppe-rare",
+      "pokemon": "magcargo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "magmortar-crimson_steppe-ultra-rare",
+      "pokemon": "magmortar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "chandelure-crimson_steppe-ultra-rare",
+      "pokemon": "chandelure",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "typhlosion-crimson_steppe-ultra-rare",
+      "pokemon": "typhlosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "abyssaline:crimson_steppe"
+        ]
+      }
+    },
+    {
+      "id": "gengar-crimson_steppe-ultra-rare",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 4,
       "condition": {
         "biomes": [
           "abyssaline:crimson_steppe"

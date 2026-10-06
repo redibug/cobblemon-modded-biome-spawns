@@ -9,26 +9,30 @@ three worldgen mods that ship with **no Cobblemon spawns of their own**:
 | **Blooming Biosphere** (`mr_blooming_biosphere`) | Autumnal Forest, Chaparral, Marsh, Oak Woodland, Rainforest, Snowy Cherry Grove, Tidepools |
 | **Abyssaline Nether** (`mr_abyssaline_nether`) | Basalt Garden, Crimson Steppe, Distorted Wastes, Infected Valley, Nether Jungle, Overgrown Wastes, Scarlet Undergrowth, Twisting Thicket |
 
-16 spawn files, 55 spawn entries. Everything is **additive** — it lives in
-its own `melspawns` namespace, so it never overrides or blocks Cobblemon's
-default spawns (or other addons' files).
+16 spawn files, 256 spawn entries — every biome has at least 4 Pokémon in
+**each** rarity bucket (common / uncommon / rare / ultra-rare). Evolved
+forms always sit a bucket above their base forms. Everything is **additive**
+— it lives in its own `melspawns` namespace, so it never overrides or
+blocks Cobblemon's default spawns (or other addons' files).
 
 ## Highlights
 
-- **Dappled Forest** gets a spooky-autumn set: **Pumpkaboo** (uncommon,
-  night), **Phantump** (common, night), **Mimikyu** (rare), plus Seedot,
-  Shroomish, Pineco, Hoothoot (night) and Teddiursa.
+- **Dappled Forest** gets a spooky-autumn set: **Pumpkaboo** (common,
+  day + night), **Phantump** (common, night), **Mimikyu** (rare), **autumn
+  Deerling** (uncommon), plus Seedot, Shroomish, Pineco, Hoothoot (night)
+  and Teddiursa — with Trevenant, Gourgeist, Nuzleaf, Noctowl, Shiftry,
+  Ursaring and Forretress in the higher buckets.
 - Blooming Biosphere biomes get themed sets (Wooper/Psyduck/Lotad in the
   Marsh, Snorunt/Swinub/Snover in the Snowy Cherry Grove, Krabby/Corphish/
-  Wingull in the Tidepools, …).
+  Wingull in the Tidepools, Tropius/Carnivine in the Rainforest, …).
 - Abyssaline Nether biomes get fire/ghost sets (Vulpix, Growlithe, Houndour,
-  Slugma, Numel, Torkoal, Gastly, Haunter, Litwick, Lampent, Magmar).
+  Slugma, Numel, Torkoal, Gastly, Haunter, Litwick, Lampent, Magmar … up to
+  Gengar, Chandelure, Magmortar and Typhlosion in ultra-rare).
 
 ## Install
 
 **As a datapack (per-world):** drop this folder (or the zip) into
-`<world>/datapacks/`, then `/datapack list` should show it. Works on servers
-too — clients don't need it.
+`<world>/datapacks/`.
 
 **In a modpack (every world):** use the [Open Loader](https://modrinth.com/mod/open-loader)
 mod and drop the folder/zip in `resources/openloader/datapack/`
@@ -41,7 +45,7 @@ spawn changes**. Quit to the main menu and re-enter the world after editing.
 ## Test
 
 In-game, stand in the biome and run `/checkspawns <bucket>`
-(e.g. `/checkspawns common`) — your new spawns should be listed.
+(e.g. `/checkspawns rare`) — your new spawns should be listed.
 
 ## Tweaking
 
@@ -50,14 +54,14 @@ Each entry is one Pokémon:
 
 ```json
 {
-  "id": "gastly-distorted_wastes-1",
+  "id": "gastly-distorted_wastes-common",
   "pokemon": "gastly",
   "presets": ["natural"],
   "type": "pokemon",
   "spawnablePositionType": "grounded",
   "bucket": "common",
   "level": "6-31",
-  "weight": 20,
+  "weight": 18,
   "condition": { "biomes": ["abyssaline:distorted_wastes"] }
 }
 ```
@@ -69,12 +73,13 @@ Each entry is one Pokémon:
 - `spawnablePositionType`: `grounded` (land), `seafloor` (underwater,
   pair with `"presets": ["water"]`), `surface` (water/lava surface),
   `underwater`, `lava`
+- Forms use a space: `"pokemon": "deerling autumn"`
 - Files are organized per-mod in subfolders — delete a mod's folder if you
   remove that mod.
 
 Biome IDs were verified by inspecting the actual mod jars (Cobblemon 1.8.1,
-MC 1.21.1, NeoForge). Species IDs were verified against Cobblemon's species
-data. Spawn JSON schema matches Cobblemon's `spawn_pool_world` format.
+MC 1.21.1, NeoForge). All 125 species IDs were verified against Cobblemon's
+species data. Spawn JSON schema matches Cobblemon's `spawn_pool_world` format.
 
 Regenerate everything with `python3 generate.py` (source of truth for the
 tables lives at the top of that script).

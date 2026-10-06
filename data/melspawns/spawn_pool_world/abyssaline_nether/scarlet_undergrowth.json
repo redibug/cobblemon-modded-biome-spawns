@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "houndour-scarlet_undergrowth-1",
+      "id": "houndour-scarlet_undergrowth-common",
       "pokemon": "houndour",
       "presets": [
         "natural"
@@ -21,7 +21,7 @@
       }
     },
     {
-      "id": "growlithe-scarlet_undergrowth-1",
+      "id": "growlithe-scarlet_undergrowth-common",
       "pokemon": "growlithe",
       "presets": [
         "natural"
@@ -30,7 +30,245 @@
       "spawnablePositionType": "grounded",
       "bucket": "common",
       "level": "8-30",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "vulpix-scarlet_undergrowth-common",
+      "pokemon": "vulpix",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
       "weight": 14,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "gastly-scarlet_undergrowth-common",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "magmar-scarlet_undergrowth-uncommon",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "numel-scarlet_undergrowth-uncommon",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "haunter-scarlet_undergrowth-uncommon",
+      "pokemon": "haunter",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "slugma-scarlet_undergrowth-uncommon",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-30",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "houndoom-scarlet_undergrowth-rare",
+      "pokemon": "houndoom",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "arcanine-scarlet_undergrowth-rare",
+      "pokemon": "arcanine",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "ninetales-scarlet_undergrowth-rare",
+      "pokemon": "ninetales",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "lampent-scarlet_undergrowth-rare",
+      "pokemon": "lampent",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-42",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "chandelure-scarlet_undergrowth-ultra-rare",
+      "pokemon": "chandelure",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "magmortar-scarlet_undergrowth-ultra-rare",
+      "pokemon": "magmortar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "gengar-scarlet_undergrowth-ultra-rare",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "typhlosion-scarlet_undergrowth-ultra-rare",
+      "pokemon": "typhlosion",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 4,
       "condition": {
         "biomes": [
           "abyssaline:scarlet_undergrowth"

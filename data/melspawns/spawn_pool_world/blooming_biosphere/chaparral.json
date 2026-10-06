@@ -4,7 +4,7 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "growlithe-chaparral-1",
+      "id": "growlithe-chaparral-common",
       "pokemon": "growlithe",
       "presets": [
         "natural"
@@ -22,25 +22,7 @@
       }
     },
     {
-      "id": "ponyta-chaparral-1",
-      "pokemon": "ponyta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "uncommon",
-      "level": "10-30",
-      "weight": 12,
-      "condition": {
-        "biomes": [
-          "blooming_biosphere:chaparral"
-        ],
-        "timeRange": "day"
-      }
-    },
-    {
-      "id": "sandshrew-chaparral-1",
+      "id": "sandshrew-chaparral-common",
       "pokemon": "sandshrew",
       "presets": [
         "natural"
@@ -57,8 +39,95 @@
       }
     },
     {
-      "id": "cacnea-chaparral-1",
+      "id": "ponyta-chaparral-common",
+      "pokemon": "ponyta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "cacnea-chaparral-common",
       "pokemon": "cacnea",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-28",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "numel-chaparral-uncommon",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-30",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "rhyhorn-chaparral-uncommon",
+      "pokemon": "rhyhorn",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "phanpy-chaparral-uncommon",
+      "pokemon": "phanpy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-26",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "cubone-chaparral-uncommon",
+      "pokemon": "cubone",
       "presets": [
         "natural"
       ],
@@ -70,8 +139,146 @@
       "condition": {
         "biomes": [
           "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "arcanine-chaparral-rare",
+      "pokemon": "arcanine",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
         ],
         "timeRange": "day"
+      }
+    },
+    {
+      "id": "sandslash-chaparral-rare",
+      "pokemon": "sandslash",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-45",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "cacturne-chaparral-rare",
+      "pokemon": "cacturne",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-45",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "rapidash-chaparral-rare",
+      "pokemon": "rapidash",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "camerupt-chaparral-ultra-rare",
+      "pokemon": "camerupt",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "rhyperior-chaparral-ultra-rare",
+      "pokemon": "rhyperior",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-58",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "donphan-chaparral-ultra-rare",
+      "pokemon": "donphan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-55",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "marowak-chaparral-ultra-rare",
+      "pokemon": "marowak",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-52",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
       }
     }
   ]
