@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "litwick-infected_valley-1",
+      "pokemon": "litwick",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 20,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    },
+    {
+      "id": "gastly-infected_valley-1",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:infected_valley"
+        ]
+      }
+    }
+  ]
+}

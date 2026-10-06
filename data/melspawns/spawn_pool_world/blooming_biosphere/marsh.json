@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wooper-marsh-1",
+      "pokemon": "wooper",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-22",
+      "weight": 22,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "psyduck-marsh-1",
+      "pokemon": "psyduck",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-28",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "lotad-marsh-1",
+      "pokemon": "lotad",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "6-24",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    },
+    {
+      "id": "poliwag-marsh-1",
+      "pokemon": "poliwag",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "5-22",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:marsh"
+        ]
+      }
+    }
+  ]
+}

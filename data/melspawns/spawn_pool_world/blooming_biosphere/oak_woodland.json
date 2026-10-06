@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pidgey-oak_woodland-1",
+      "pokemon": "pidgey",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-20",
+      "weight": 25,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "caterpie-oak_woodland-1",
+      "pokemon": "caterpie",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "4-16",
+      "weight": 22,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "oddish-oak_woodland-1",
+      "pokemon": "oddish",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-20",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ]
+      }
+    },
+    {
+      "id": "buneary-oak_woodland-1",
+      "pokemon": "buneary",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-22",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:oak_woodland"
+        ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

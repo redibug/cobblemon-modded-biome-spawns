@@ -1,0 +1,78 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "growlithe-chaparral-1",
+      "pokemon": "growlithe",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-28",
+      "weight": 20,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "ponyta-chaparral-1",
+      "pokemon": "ponyta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-30",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "sandshrew-chaparral-1",
+      "pokemon": "sandshrew",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-26",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ]
+      }
+    },
+    {
+      "id": "cacnea-chaparral-1",
+      "pokemon": "cacnea",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-28",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:chaparral"
+        ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

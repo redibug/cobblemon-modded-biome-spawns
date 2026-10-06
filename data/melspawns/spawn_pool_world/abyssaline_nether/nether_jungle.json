@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "houndour-nether_jungle-1",
+      "pokemon": "houndour",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:nether_jungle"
+        ]
+      }
+    },
+    {
+      "id": "numel-nether_jungle-1",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:nether_jungle"
+        ]
+      }
+    },
+    {
+      "id": "vulpix-nether_jungle-1",
+      "pokemon": "vulpix",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-30",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:nether_jungle"
+        ]
+      }
+    }
+  ]
+}

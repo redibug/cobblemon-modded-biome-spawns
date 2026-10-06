@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "swinub-snowy_cherry_grove-1",
+      "pokemon": "swinub",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-26",
+      "weight": 20,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "snorunt-snowy_cherry_grove-1",
+      "pokemon": "snorunt",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "snover-snowy_cherry_grove-1",
+      "pokemon": "snover",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ]
+      }
+    },
+    {
+      "id": "sneasel-snowy_cherry_grove-1",
+      "pokemon": "sneasel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "18-38",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:snowy_cherry_grove"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

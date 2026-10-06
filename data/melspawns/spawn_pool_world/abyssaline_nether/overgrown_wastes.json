@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "slugma-overgrown_wastes-1",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-30",
+      "weight": 16,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "torkoal-overgrown_wastes-1",
+      "pokemon": "torkoal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-38",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    },
+    {
+      "id": "gastly-overgrown_wastes-1",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "abyssaline:overgrown_wastes"
+        ]
+      }
+    }
+  ]
+}

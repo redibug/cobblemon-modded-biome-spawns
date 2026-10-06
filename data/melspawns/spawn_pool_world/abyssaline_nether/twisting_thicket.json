@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "litwick-twisting_thicket-1",
+      "pokemon": "litwick",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "lampent-twisting_thicket-1",
+      "pokemon": "lampent",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-42",
+      "weight": 6,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    },
+    {
+      "id": "magmar-twisting_thicket-1",
+      "pokemon": "magmar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-40",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "abyssaline:twisting_thicket"
+        ]
+      }
+    }
+  ]
+}

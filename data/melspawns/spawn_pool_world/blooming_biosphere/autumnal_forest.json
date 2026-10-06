@@ -1,0 +1,80 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "phantump-autumnal_forest-1",
+      "pokemon": "phantump",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "pumpkaboo-autumnal_forest-1",
+      "pokemon": "pumpkaboo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "9-34",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "seedot-autumnal_forest-1",
+      "pokemon": "seedot",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 22,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "pineco-autumnal_forest-1",
+      "pokemon": "pineco",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-26",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "blooming_biosphere:autumnal_forest"
+        ]
+      }
+    }
+  ]
+}

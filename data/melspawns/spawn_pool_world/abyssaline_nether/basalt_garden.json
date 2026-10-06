@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "slugma-basalt_garden-1",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-30",
+      "weight": 20,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    },
+    {
+      "id": "numel-basalt_garden-1",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-32",
+      "weight": 12,
+      "condition": {
+        "biomes": [
+          "abyssaline:basalt_garden"
+        ]
+      }
+    }
+  ]
+}

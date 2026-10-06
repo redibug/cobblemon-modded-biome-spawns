@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "houndour-scarlet_undergrowth-1",
+      "pokemon": "houndour",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 18,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    },
+    {
+      "id": "growlithe-scarlet_undergrowth-1",
+      "pokemon": "growlithe",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-30",
+      "weight": 14,
+      "condition": {
+        "biomes": [
+          "abyssaline:scarlet_undergrowth"
+        ]
+      }
+    }
+  ]
+}
