@@ -274,6 +274,23 @@
           "enderscape:void_skies"
         ]
       }
+    },
+    {
+      "id": "celesteela-void_skies-ultra-rare",
+      "pokemon": "celesteela min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 4,
+      "condition": {
+        "biomes": [
+          "enderscape:void_skies"
+        ]
+      }
     }
   ]
 }

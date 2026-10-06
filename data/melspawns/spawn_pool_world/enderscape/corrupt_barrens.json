@@ -140,6 +140,23 @@
       }
     },
     {
+      "id": "poipole-corrupt_barrens-uncommon",
+      "pokemon": "poipole",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 8,
+      "condition": {
+        "biomes": [
+          "enderscape:corrupt_barrens"
+        ]
+      }
+    },
+    {
       "id": "claydol-corrupt_barrens-rare",
       "pokemon": "claydol",
       "presets": [

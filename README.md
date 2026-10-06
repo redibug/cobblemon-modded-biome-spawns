@@ -29,15 +29,15 @@ blocks Cobblemon's default spawns (or other addons' files).
 - Abyssaline Nether biomes get fire/ghost sets (Vulpix, Growlithe, Houndour,
   Slugma, Numel, Torkoal, Gastly, Haunter, Litwick, Lampent, Magmar … up to
   Gengar, Chandelure, Magmortar and Typhlosion in ultra-rare).
-- **Enderscape** biomes are **Ultra Beast territory** (requires the
-  [AllTheMons](https://modrinth.com/datapack/allthemons) datapack — that's
-  where the UB species come from): Nihilego in the Corrupt Barrens,
-  Pheromosa/Xurkitree in the Celestial Grove, Kartana/Buzzwole in the Veiled
-  Woodlands, Stakataka in the Magnia Crags, Guzzlord/Naganadel/Blacephalon
-  in the Corrupt Barrens and Void Depths, plus Necrozma, Lunala, Solgaleo,
-  Marshadow and the Tapus in ultra-rare. All UBs spawn with 3 perfect IVs.
-  The common/uncommon pools are filled with end-flavored base mons
-  (Lunatone, Solrock, Elgyem, Sigilyph, Gothita line, Minior, …).
+- **Enderscape** biomes are **Ultra Beast territory**: all 11 UBs are in
+  base Cobblemon — Nihilego in the Corrupt Barrens, Pheromosa/Xurkitree in
+  the Celestial Grove, Kartana/Buzzwole in the Veiled Woodlands, Stakataka
+  in the Magnia Crags, Guzzlord/Naganadel/Blacephalon in the Corrupt Barrens
+  and Void Depths, **Celesteela** soaring in the Void Skies, **Poipole** in
+  the Corrupt Barrens, plus Necrozma, Lunala, Solgaleo, Marshadow and the
+  Tapus in ultra-rare. All UBs spawn with 3 perfect IVs. The common/uncommon
+  pools are filled with end-flavored base mons (Lunatone, Solrock, Elgyem,
+  Sigilyph, Gothita line, Minior, …).
 
 ## Install
 
