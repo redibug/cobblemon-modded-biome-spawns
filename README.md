@@ -38,6 +38,9 @@ blocks Cobblemon's default spawns (or other addons' files).
   Tapus in ultra-rare. All UBs spawn with 3 perfect IVs. The common/uncommon
   pools are filled with end-flavored base mons (Lunatone, Solrock, Elgyem,
   Sigilyph, Gothita line, Minior, …).
+- **Vanilla bonus:** **Buzzwole** (ultra-rare, 3 perfect IVs) in the
+  **crimson forest** — a nod to Alex's Mobs, whose Crimson Mosquito spawns
+  there. The buff mosquito claims its turf.
 
 ## Install
 

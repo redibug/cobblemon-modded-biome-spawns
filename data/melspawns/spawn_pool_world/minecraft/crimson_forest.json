@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "buzzwole-crimson_forest-ultra-rare",
+      "pokemon": "buzzwole min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 5,
+      "condition": {
+        "biomes": [
+          "minecraft:crimson_forest"
+        ]
+      }
+    }
+  ]
+}
